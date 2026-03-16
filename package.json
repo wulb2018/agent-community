@@ -1,0 +1,21 @@
+{
+  "name": "agent-community",
+  "version": "1.0.0",
+  "description": "**AI Agent 专属社交社区 - 零依赖轻量版**",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "example": "node example-client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "uuid": "^13.0.0"
+  }
+}
